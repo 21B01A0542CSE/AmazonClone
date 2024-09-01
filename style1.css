@@ -1,0 +1,372 @@
+*{
+    background-color: rgb(11, 11, 11);
+    box-sizing: border-box;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    
+}
+.nav-left{
+align-items: center;
+    display: flex;
+    
+    height: 60px;
+}
+.logo{
+    margin-left: 10px;
+}
+.leftsecond{
+    text-align: center;
+    
+    color: white;
+    margin-left:20px;
+    font-size: 10px;
+    
+}
+.locationicon{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+.nav-center{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    width:920px;
+    height:40px;
+    border-radius: 4px;
+    
+}
+
+.search-select{
+    background-color: #666161;
+    width:40px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-select option{
+    background-color: white;
+    color: black;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width:45px;
+    font-size: 1.1rem;
+    background-color: rgb(11, 11, 11);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #f4f0f0;
+}
+.nav-center{
+    border: 2px solid orange;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.flag-icon{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding:5%;
+    margin-right: 0.5px;
+    margin-left: 10px;
+   
+}
+.flag-select{
+    color: white;
+    border: none;
+}
+.flag-select option{
+    color:black;
+    background-color: white;
+}
+
+.welcome{
+    
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    line-height:5px ;
+    
+}
+.t-text{
+    font-size: 10px;
+   
+}
+.accounts-select{
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    
+    
+}
+.accounts-select option{
+    color:black;
+    background-color: white;
+}
+.returns{
+    margin-left: 40px;
+    font-size: .7rem;
+    color: white;
+    line-height:5px ;
+    
+    
+}
+.dtext{
+    margin-bottom: 10px;
+}
+
+
+.cart{
+    display: flex;
+    margin-left: 40px;
+}
+.cart i{
+   color: white;
+   display: flex;
+   align-items: center;
+   padding:30%
+   
+}
+.textc{
+    color: white;
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #222f3d;
+    height: 40px;
+    cursor: pointer;
+}
+.all-logo{
+    display: flex;
+    align-items: center;
+    background-color: #222f3d;
+    margin-left: 70px;
+    
+   
+}
+.all{
+    margin-left:8px;
+    background-color: #222f3d;
+    align-items: center;
+    display: flex;
+    height: 8px;
+}
+.other-options{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #222f3d;
+    margin-left: 20px;
+    height: 30px;
+}
+.one{
+    background-color: #222f3d;
+    margin-left: 20px;
+}
+.para{
+    display: flex;
+    align-items: center;
+}
+    .para .textp {
+        width: 95%;
+        margin-left: 30px;
+        position: absolute;
+        text-align: center;
+        font-size: 1rem;
+        background-color: #f5f6f6;
+        padding: 1rem;
+        color: black;
+        margin-bottom: -25rem;
+    }
+    
+    .para .textp a {
+        
+        font-weight: bold;
+        background-color: white;
+        color: #007185;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.main-fpart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+   
+  overflow: auto;
+}
+.main-spart{
+    display: flex;
+    align-items: center;
+    background-color: #bfbaba;
+    padding:0rem 1rem 0rem 2rem;
+    padding-top: -30rem;
+    margin-top: -5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photos{
+    background-color: white;
+    color: black;
+    width: 340px;
+    padding: 0.5rem .01rem 0.01rem 1.3rem;
+    margin-bottom: 1rem;
+   
+    
+}
+.decor{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.decor1{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+.image{
+    background-color: white;
+    object-fit: cover;
+    
+   
+}
+.image img{
+    border: 2px solid black;
+}
+.photos1{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0.90rem 0.01rem 1rem;
+    margin-bottom: 1rem;
+}
+.top{
+    background-color: rgb(23, 23, 37);
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.class1{
+    color: white;
+    background-color:rgb(23, 23, 37) ;
+}
+.optionss {
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #011124;
+    color: white;
+   
+}
+
+.optionss ul {
+    margin-top: 3rem;
+    background-color:#011124 ;
+}
+
+.optionss ul p {
+    font-weight: bold;
+    background-color:#011124
+}
+
+.optionss ul a {
+    display: block;
+    font-size: .7rem;
+    color: #dddddd;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color:#011124
+}
+.overview{
+    background-color:rgb(23, 23, 37) ;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+/* .logo img{
+    background-color:rgb(23, 23, 37)  ;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 90px;
+    padding-left: 20px;
+    padding-right: 0.5rem;
+   
+} */
+.selecting{
+    background-color:rgb(23, 23, 37)  ;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
+.policies{
+    background-color: #011124;
+    display: flex;
+    
+    
+}
+.policies a{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.para{
+    background-color: #011124;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.para a{
+    background-color: #011124;
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+
+}
+#id1{
+    color:white;
+    background-color: #011124;
+    
+}
+.paragraph{
+    background-color: #011124;
+    font-size: .7rem;
+}
+
+
+ 
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
